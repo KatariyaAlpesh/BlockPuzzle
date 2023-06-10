@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelPage"
+    android:background="@drawable/w1"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:gravity="start"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/w3"
+            android:scaleY="1"
+            android:scaleX=".3"
+            android:id="@+id/Back"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/Three"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/w"
+            android:text="3 x 3"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:scaleX=".7"
+            android:scaleY=".7"
+            android:textSize="60sp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Four"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/w"
+            android:text="4 x 4"
+            android:scaleX=".7"
+            android:scaleY=".7"
+            android:textSize="60sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Five"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/w"
+            android:text="5 x 5"
+            android:scaleX=".7"
+            android:scaleY=".7"
+            android:textSize="60sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Six"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/w"
+            android:text="6 x 6"
+            android:scaleX=".7"
+            android:scaleY=".7"
+            android:textSize="60sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Seven"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/w"
+            android:text="7 x 7"
+            android:scaleX=".7"
+            android:scaleY=".7"
+            android:textSize="60sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/Eight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/w"
+            android:text="8 x 8"
+            android:scaleX=".7"
+            android:scaleY=".7"
+            android:textSize="60sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
